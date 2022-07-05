@@ -6,6 +6,7 @@ public class Geom2D {
 }
 public class Triangulo extends Geom2D {
     ...
+    
     @Override
     double calcPerimetro(){
         super.perimetro = this.ladoA + this.ladoB + this.ladoC;
